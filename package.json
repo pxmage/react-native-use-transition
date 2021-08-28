@@ -1,0 +1,37 @@
+{
+  "name": "react-native-use-transition",
+  "version": "1.0.0",
+  "description": "Hooks built purely based on react-native animated API to help you do transitions or animations.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "install-peers",
+    "build": "rm -rf ./typings && NODE_ENV=production tsc -p tsconfig.json"
+  },
+  "typings": "typings/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pxmage/react-native-use-transition"
+  },
+  "keywords": [
+    "react-native",
+    "transition",
+    "animation",
+    "useTransition",
+    "hooks",
+    "hook",
+    "react",
+    "mobile",
+    "ios",
+    "android"
+  ],
+  "author": "pxmage",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "install-peers-cli": "^2.1.1",
+    "typescript": "^3.7.2"
+  }
+}
