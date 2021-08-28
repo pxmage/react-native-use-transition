@@ -18,8 +18,8 @@ note: `react` and `react-native` are required peer dependencies.
 
 ### Usage1: bind a transition with your state (recommended)
 ```javascript
-  import { useEffect, useState } from "react"
-  import { Animated, Easing, Text} from 'react-native';
+  import { useEffect, useState } from 'react'
+  import { Animated, Easing, Text } from 'react-native';
   import { useBindTransition } from 'react-native-use-transition';
 
   const MyComponent = () => {
@@ -52,8 +52,8 @@ note: `react` and `react-native` are required peer dependencies.
 ### Usage2: do the transition manually
 
 ```javascript
-  import { useEffect } from "react"
-  import { Animated, Easing, Text} from 'react-native';
+  import { useEffect } from 'react'
+  import { Animated, Easing, Text } from 'react-native';
   import { useTransition } from 'react-native-use-transition';
 
   const MyComponent = () => {
@@ -79,8 +79,8 @@ note: `react` and `react-native` are required peer dependencies.
 `react-native-use-transition` takes the advantages of [interpolartion](https://reactnative.dev/docs/animations#interpolation), which enables you to do string transitions like from `0deg` to `90deg` etc.
 
 ```javascript
-  import { useEffect, useState } from "react"
-  import { Animated, Easing, Text} from 'react-native';
+  import { useEffect, useState } from 'react'
+  import { Animated, Easing, Text } from 'react-native';
   import { useBindTransition } from 'react-native-use-transition';
 
   const MyComponent = () => {
